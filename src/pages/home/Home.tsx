@@ -39,21 +39,43 @@ function Home() {
 
       </header>
 
+
+
+
+      <div className="gallery">
+
+        <div>
+        <img src='/logo.png' width={'35vh'} height={'35vh'} alt="Logo" />
+            <div className="image-caption">Texto 1</div>
+        </div>
+
+        <div>
+        <img src='/logo.png' width={'35vh'} height={'35vh'} alt="Logo" />
+            <div className="image-caption">Texto 2</div>
+        </div>
+
+        <div>
+        <img src='/logo.png' width={'35vh'} height={'35vh'} alt="Logo" />
+            <div className="image-caption">Texto 3</div>
+        </div>
+        
+    </div>
+
+
+
+
+
+
       <div className="half-circle"></div>
 
       <footer className="footer">
         <div className="footer-container">
-
           <div className="footer-info">
             <p>&copy; {new Date().getFullYear()} Vitalitay Vision. Todos os direitos reservados.</p>
             <p>Contato: <a href="mailto:contato@empresa.com">vitalityvisionn@gmail.com</a></p>
           </div>
         </div>
       </footer>
-
-
-
-
     </>
   )
 }

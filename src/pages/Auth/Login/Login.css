@@ -171,7 +171,7 @@ width: 55%;
     top: 0; 
     right: 0;
     border-radius: 20px;
-    position: fixed; /* Ou 'absolute' dependendo da necessidade */
+    position: absolute; /* Ou 'absolute' dependendo da necessidade */
     z-index: 10; /* Valor maior para garantir que fique acima */
     padding: 20px; /* Espaçamento interno */
     gap: 20px; /* Espaçamento entre os itens */
@@ -210,7 +210,7 @@ width: 55%;
 }
 
 .loginbtn:hover {
-  background-color: #0056b3; /* Cor ao passar o mouse */
+  background-color: #5DAA74; /* Cor ao passar o mouse */
   transform: translateY(-2px); /* Efeito de elevação ao passar o mouse */
 }
 
@@ -233,7 +233,7 @@ width: 55%;
 }
 
 .registrobtn:hover {
-  background-color: #0056b3; /* Cor ao passar o mouse */
+  background-color: #5DAA74; /* Cor ao passar o mouse */
   transform: translateY(-2px); /* Efeito de elevação ao passar o mouse */
 }
 

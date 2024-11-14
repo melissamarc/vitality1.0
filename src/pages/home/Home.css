@@ -338,7 +338,7 @@ body {
   
   @media (max-width: 576px) {
     .hero-section {
-      padding: 40px 10px;
+      padding: 300px 100px;
     }
   
     .title, .subtitle {
@@ -359,4 +359,39 @@ body {
   /* Evita overflow horizontal */
   body {
     overflow-x: hidden;
+  }
+
+
+
+
+    /* Estilo geral do container que envolve as fotos */
+    .gallery {
+      display: flex;
+      justify-content: space-between;  /* Espaço entre as imagens */
+      gap: 15px;                      /* Espaçamento entre as imagens */
+      flex-wrap: wrap;                /* Permite que as imagens quebrem para a linha seguinte, se necessário */
+      
+  }
+
+  /* Estilo das imagens */
+  .gallery img {
+      width: 30%;                /* Cada imagem ocupará 30% da largura do container */
+      height: auto;              /* Altura automática para manter a proporção */
+      border-radius: 8px;        /* Bordas arredondadas nas imagens */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave nas imagens */
+  }
+
+  /* Estilo para o texto abaixo das imagens */
+  .image-caption {
+      text-align: center;         /* Alinhar o texto ao centro */
+      font-size: 14px;            /* Fonte pequena */
+      color: #333;                /* Cor do texto */
+      margin-top: 8px;            /* Margem acima do texto */
+  }
+
+  /* Responsividade: quando a tela for pequena (por exemplo, em dispositivos móveis), as imagens ficam em 100% da largura */
+  @media (max-width: 768px) {
+      .gallery img {
+          width: 100%;           /* As imagens ocupam 100% da largura em telas menores */
+      }
   }
