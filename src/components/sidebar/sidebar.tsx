@@ -17,7 +17,7 @@ const Sidebar: React.FC = () => {
           <li><Link to="/dashboard"><FaChartLine /></Link></li>
           <li><Link to="/recipes"><FaApple /></Link></li>
           <li><Link to="/reifs"><FaFish /></Link></li>
-          <li><Link to="/ajuda"><FaHandsHelping /></Link></li>
+          
           <div className="lgt"> <li><LogoutButton /></li>  </div>
         </ul>
       </div>

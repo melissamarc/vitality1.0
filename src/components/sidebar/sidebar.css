@@ -7,7 +7,7 @@
   left: 0; /* Posiciona a sidebar no lado esquerdo da tela */
   height: 97%; /* Sidebar ocupa toda a altura da página */
   width: 5%; /* Sidebar ocupa 10% da largura da tela */
-  background-color: rgb(161, 160, 160); /* Cor de fundo branca */
+  background-color: rgb(255, 255, 255); /* Cor de fundo branca */
   align-items: center; /* Alinha os itens centralmente no eixo vertical */
   justify-content: flex-start; /* Itens ficam alinhados ao topo */
   flex-direction: column; /* Coloca os itens em coluna */
@@ -17,6 +17,7 @@
   overflow-x: hidden; /* Previne rolagem horizontal */
   overflow-y: auto; /* Permite rolagem vertical se o conteúdo for maior que a tela */
 }
+
 
 /* Menu */
 .menu {
@@ -36,7 +37,7 @@
   margin: 0;
   display: flex;
   flex-direction: column; /* Itens em coluna */
-  gap: 3vh; /* Espaçamento entre os itens */
+  gap: 7vh; /* Espaçamento entre os itens */
   width: 100%;
   align-items: center; /* Alinha ícones ao centro */
 }
@@ -48,9 +49,9 @@
 }
 
 .menu ul li svg {
-  width: 4vh;
-  height: 4vh;
-  color: rgba(32, 32, 32, 0.7); /* Ajusta a cor dos ícones para uma visibilidade melhor */
+  width: 5vh;
+  height: 5vh;
+  color: rgba(50, 49, 49, 0.7); /* Ajusta a cor dos ícones para uma visibilidade melhor */
   transition: color 0.3s ease-in-out; /* Transição suave para hover */
 }
 

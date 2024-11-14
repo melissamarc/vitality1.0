@@ -7,7 +7,7 @@ import Registro from './src/pages/Auth/Register/Register';
 import Dashboard from './src/pages/Dashboard/Dashboard';
 import Recipes from './src/pages/Recipes/Recipes';
 import Refeicoes from './src/pages/Refeicoes/Refeicoes';
-import Ajuda from './src/pages/Help/Help';
+
 
 
 const AppRoutes: React.FC = () => {
@@ -25,7 +25,7 @@ const AppRoutes: React.FC = () => {
                 <Route path="/dashboard" element={<Dashboard />} />
                 <Route path="/recipes" element={<Recipes />} />
                 <Route path="/reifs" element={<Refeicoes />} />
-                <Route path="/ajuda" element={<Ajuda />} />
+              
                 
 
              
